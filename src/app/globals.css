@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    scrollbar-width: thin;
+}
+
+*::-webkit-scrollbar{
+    @apply bg-transparent w-2
+}
+
+*::-webkit-scrollbar-thumb{
+    @apply bg-zinc-500 rounded-full
+}
+
+.scrollbar-hidden::-webkit-scrollbar-thumb {
+    @apply bg-transparent
+}
+
+.scrollbar-hidden:hover::-webkit-scrollbar-thumb {
+    @apply bg-zinc-500
+}
+
+.buttonC {
+    @apply w-8 h-8 md:w-9 md:h-9 hover:bg-gray-200 hover:rounded-full cursor-pointer flex justify-center items-center;
+}
+/* [data-collapse=true] {
+    width: 5.3rem;
+} */
