@@ -13,7 +13,8 @@ export default function PageHeader() {
 
     return (
         <>
-            <div className=" mx-auto sm:mx-[16px] md:mx-[17px] lg:mx-[12px] flex gap-10 lg:gap-20 justify-between pt-2">
+        <div className="">
+            <div className="  mx-auto sm:mx-[16px] md:mx-[17px] lg:mx-[12px] flex gap-10 lg:gap-20 justify-between pt-2">
                 <PageHeaderFirstSection hidden={show} />
 
                 <form className={`  gap-4 flex-grow justify-center items-center ${show ? "flex" : "hidden md:flex"}`}>
@@ -49,6 +50,7 @@ export default function PageHeader() {
 
 
             </div >
+            </div>
         </>
     )
 }

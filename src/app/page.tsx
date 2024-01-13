@@ -22,7 +22,7 @@ const Home = () => {
           <div className=" grid grid-cols-[auto,1fr] flex-grow overflow-auto">
 
             <SideBar />
-            <div className=" overflow-x-hidden px-8 mt-5">
+            <div className="   justify-center overflow-x-hidden  mt-5">
               <div className="  sticky top-0 bg-white z-10 pb-2">
                 <CategoryPills categories={categories}
                   selected={selected} onSelect={setSelected} />
