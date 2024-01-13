@@ -38,7 +38,7 @@ export default function CategoryPills({ categories, selected, onSelect }: CProps
     }, [categories, translate])
     return (
         <>
-            <div className="  mx-0 ">
+            <div className="    ">
                 <div ref={containerRef} className="  overflow-x-hidden relative py-[1.9px]">
                     <div className=" flex whitespace-nowrap gap-3 transition-transform w-[max-content]" style={{ transform: `translateX(-${translate}px)` }}>
                         {
